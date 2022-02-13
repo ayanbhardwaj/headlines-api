@@ -10,6 +10,7 @@ app = Flask(__name__)
 Bootstrap(app)
 
 
+# home route
 @app.route('/')
 def home():
     response = requests.get(url=URL)
