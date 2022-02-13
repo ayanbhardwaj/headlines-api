@@ -3,7 +3,7 @@ from flask_bootstrap import Bootstrap
 import requests
 import os
 
-API_KEY = os.environ.get("KEY")
+API_KEY = os.environ.get("NEWS_KEY")
 URL = f"https://newsapi.org/v2/top-headlines?country=in&apiKey={API_KEY}"
 
 app = Flask(__name__)
