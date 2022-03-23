@@ -19,7 +19,7 @@ def home():
 
 
 @app.route('/au')
-def home():
+def aus():
     response = requests.get(url=URL_2)
     all_news = response.json()["articles"]
     return render_template("aus_news.html", all_news=all_news)
