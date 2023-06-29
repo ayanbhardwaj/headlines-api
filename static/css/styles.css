@@ -1,10 +1,14 @@
 body {
   font-family: Montserrat;
-  text-align: justify;
+  text-align: center;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Montserrat-Bold";
+}
+
+h2, h4 {
+  text-align: justify;
 }
 
 hr {
